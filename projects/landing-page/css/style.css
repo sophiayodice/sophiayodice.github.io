@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Sigmar&display=swap');
+
+img {
+    text-align: center;
+}
+
+h2 {
+    font-family: "Sigmar", serif;
+    font-size: 2em;
+    font-weight: 700;
+    color: black;
+    line-height: 3;
+}
+
+body{
+    font-family: "Atkinson Hyperlegible Mono", serif;
+    font-size: 14px;
+    background-color:black
+}
+
+main {
+    background-color: blanchedalmond;
+    padding: 0 0 5em 0;
+}
+
+header,
+footer {
+    text-align: center;
+    padding: 3em 0;
+}
+
+header img {
+    width: 15%;
+    padding: 0 0 2em 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    word-spacing: 2em;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: blanchedalmond;
+}
+
+section {
+    margin: 5em 0;
+}
+
+.links,
+footer {
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Sigmar", serif;
+    letter-spacing: 1px;
+}
+
+.links a {
+    color: black;
+}
+
+footer a {
+    color: blanchedalmond;
+}
