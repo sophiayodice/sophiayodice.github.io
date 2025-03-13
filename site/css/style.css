@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+
+    h1 {
+    font-family: "Newsreader", serif;
+    font-size: 4em;
+    font-weight: 700;
+    color: #2A2927;
+    line-height: 3;
+}
+
+h2 {
+    font-family: "Newsreader", serif;
+    font-size: 3em;
+    font-weight: 700;
+    color: #2A2927;
+    line-height: 3;
+}
+
+h3 {
+    font-family: "Newsreader", serif;
+    font-size: 2em;
+    font-weight: 700;
+    color: #2A2927;
+    line-height: 3;
+}
+
+main {
+    background-color: #FDF2E9;
+    padding: 0 0 5em 0;
+    font-family: "Newsreader", serif;
+}
+
+body {
+    background-color: #FDF2E9;
+    padding: 0 0 5em 0; 
+}
+
+header,
+footer {
+    text-align: center;
+    padding: 3em 0;
+}
+
+nav {
+    word-spacing: 2em;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: blanchedalmond;
+}
+
+.links,
+footer {
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Sigmar", serif;
+    letter-spacing: 1px;
+}
+
+.links a {
+    color: black;
+}
+
+img {
+    width: 600px;
+    border-radius: 20px;
+}
+
