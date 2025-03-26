@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
 
-    h1 {
+
+h1 {
     font-family: "Newsreader", serif;
     font-size: 4em;
     font-weight: 700;
@@ -33,10 +34,12 @@ main {
 body {
     background-color: #FDF2E9;
     padding: 0 0 5em 0; 
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 3em;
 }
 
-header,
-footer {
+header {
     text-align: center;
     padding: 3em 0;
 }
@@ -47,7 +50,17 @@ nav {
 
 nav a {
     text-transform: uppercase;
-    color: blanchedalmond;
+    color: #2A2927;
+}
+
+.about,
+.resume,
+.contact {
+    background-color: #FADBD8;
+    color: #2A2927;
+    margin: 1em 0 2.5em 2.5em;
+    padding: 2em 2.5em 2.5em 2.5em;
+    border-radius: 20px;
 }
 
 .links,
@@ -67,5 +80,21 @@ footer {
 img {
     width: 600px;
     border-radius: 20px;
+    text-align: center;
 }
 
+.section {
+    margin: 20px;
+    padding: 15px; 
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+@media (max-width:556px) {
+    header img {
+        width: 50%
+    }
+}
