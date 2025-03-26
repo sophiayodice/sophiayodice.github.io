@@ -6,35 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Boilerplate</title>
     <!-- bootstrap js -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
     <!-- bootstrap css -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- custom css -->
     <link rel="stylesheet" href="../site/css/style.css">
 </head>
 
 <body>
     <header>
-    <h1>Clips</h1>
-    <nav>
-    <a href="../">Home</a>
-    <a href="../resume/">Resume</a>
-    <a href="#">Clips</a>
-    <a href="../contact/">Contact</a>
-    </nav>
-    </header> 
+        <h1>Clips</h1>
+        <nav>
+            <a href="../">Home</a>
+            <a href="../resume/">Resume</a>
+            <a href="#">Clips</a>
+            <a href="../contact/">Contact</a>
+        </nav>
+    </header>
 
 
     <main>
-        <img src="site/img/farmermarket.jpeg" alt="farmermarket" class="img-fluid">
-        <a href="https://www.hercampus.com/school/maryland/new-student-vendors-at-the-farmers-market-cuttis-plants-and-bearhands-bracelets-join-the-vendors-list/"></a>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="../site/img/farmersmarket.jpeg" alt="farmermarket" class="img-fluid">
+                <p><a href="https://www.hercampus.com/school/marylandnew-student-vendors-at-the-farmers-market-cuttis-plants-and-bearhands-bracelets-join-the-vendors-list/" class="clip-link">Her Campus | Farmers Market</a></p>
+            </div>
+            <div class="col-md-6">
+                <img src="../site/img/testudo.jpeg" alt="testudo" class="img-fluid">
+                <p><a href="https://www.hercampus.com/school/maryland/umd-bleeds-red-at-the-we-give-blood-drive/" class="clip-link">Her Campus | Blood Drive</a></p>
 
-        <img src="site/img/testudo.jpeg" alt="testudo" class="img-fluid">
-        <a href="https://www.hercampus.com/school/maryland/umd-bleeds-red-at-the-we-give-blood-drive/"></a>
 
-        <a href="https://vimeo.com/1030914998">Stamp Gallery: The Digital Landscape</a>
-        <a href="https://vimeo.com/1021905706">Dewey Crumpler: Life Studies</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div style="padding:100%;position:relative;"><iframe src="https://player.vimeo.com/video/1030914998?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:50%;height:50%;" title="Dewey Crumpler: Life Studies"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                <p><a href="https://vimeo.com/1021905706" class="clip-link">Dewey Crumpler: Life Studies</a></p>
+            </div>
+
+            <div class="col-md-5">
+                <div style="padding:100%;position:relative;"><iframe src="https://player.vimeo.com/video/1021905706?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:50%;height:30%;" title="Stamp Gallery: The Digital Landscape"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> <p><a href="https://vimeo.com/1030914998" class="clip-link">Stamp Gallery: The Digital Landscape</a></p>
+            </div>
+        </div>
 
     </main>
 
