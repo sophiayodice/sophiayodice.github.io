@@ -78,33 +78,4 @@ nav a {
 .links {
     font-size: 2em;
     text-align: center;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-family: "Sigmar", serif;
-    letter-spacing: 1px;
-    color: #2A2927;
-}
-
-img {
-    width: 600px;
-    border-radius: 20px;
-    text-align: center;
-}
-
-.row {
-    margin-top: 100px;
-}
-
-.clip-link {
-    color: #2A2927;
-    font-weight: bold;
-    text-align: center;
-    text-transform: uppercase;
-    line-height: 5;
-}
-
-@media (max-width:556px) {
-    header img {
-        width: 50%
-    }
-}
+   
