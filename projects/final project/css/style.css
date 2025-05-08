@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+h1, h3 {
+    color: #ec7063;
+}
+
+h1 {
+    margin-top: 10px;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+img {
+   margin-bottom: 20px; 
+}
+
+.red-container {
+    width: 60%;
+    padding: 40px;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    background-color: #b8190a;
+    color: azure;
+}
+
+.white-container {
+    width: 60%;
+    padding: 40px;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    position: relative;
+    text-align: center;
+    color: azure;
+}
+
+body {
+    font-family: "Sansation", sans-serif;
+    color: #b8190a;
+}
+
+a {
+    color: #ff1700;
+}
+
+header {
+    position: relative;
+    text-align: center;
+}
